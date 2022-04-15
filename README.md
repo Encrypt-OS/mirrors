@@ -135,7 +135,7 @@ Include = /etc/pacman.d/mirrorlist
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 
-[EncryptOS]
+[encryptos]
 SigLevel = PackageRequired
 Include = /etc/pacman.d/EncryptOS-mirrorlist
 
