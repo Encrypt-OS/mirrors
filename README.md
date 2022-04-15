@@ -10,9 +10,9 @@
 ####                                              ####
 ######################################################
 #### Entry in file /etc/pacman.conf:
-###     [endeavouros]
+###     [encryptos]
 ###     SigLevel = PackageRequired
-###     Include = /etc/pacman.d/endeavouros-mirrorlist
+###     Include = /etc/pacman.d/encryptos-mirrorlist
 ######################################################
 ### Tip: Use the 'eos-rankmirrors' program to rank
 ###      these mirrors or re-order them manually.
@@ -27,8 +27,8 @@ Note: the usage of the github "mirrors" below is *not* recommended. They are lik
 ```
 https://raw.githubusercontent.com/Encrypt-OS/repo/master/$repo/$arch
 
-https://github.com/endeavouros-team/mirrors/releases/download/mirror1
-https://github.com/endeavouros-team/mirrors/releases/download/mirror2
+https://github.com/Encrypt-OS/mirrors/releases/download/mirror1
+https://github.com/Encrypt-OS/mirrors/releases/download/mirror2
 ```
 
 ## Default `pacman.conf`
@@ -135,9 +135,9 @@ Include = /etc/pacman.d/mirrorlist
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 
-[endeavouros]
+[EncryptOS]
 SigLevel = PackageRequired
-Include = /etc/pacman.d/endeavouros-mirrorlist
+Include = /etc/pacman.d/EncryptOS-mirrorlist
 
 # An example of a custom package repository.  See the pacman manpage for
 # tips on creating your own repositories.
