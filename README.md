@@ -19,14 +19,14 @@
 ######################################################
 
 ## SnailDOS (Sydney, Australia)
-Server = https://mirror.snaildos.com/Encrypt-OS/repo/main/$repo/$arch
+Server = https://mirror.snaildos.com/encryptos/$arch
 ```
 
 ## Github Fallbacks
 Note: the usage of the github "mirrors" below is *not* a usable repo. These may "work", but it wont.
 ```
 ## Use this:
-https://mirror.snaildos.com/Encrypt-OS/repo/main/$repo/$arch
+https://mirror.snaildos.com/encryptos/$arch
 
 ## Do not use this:
 https://github.com/Encrypt-OS/mirrors/releases/download/mirror1
