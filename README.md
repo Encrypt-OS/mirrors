@@ -18,15 +18,17 @@
 ###      these mirrors or re-order them manually.
 ######################################################
 
-## GitHub
-Server = https://raw.githubusercontent.com/Encrypt-OS/repo/main/$repo/$arch
+## SnailDOS (Sydney, Australia)
+Server = https://mirror.snaildos.com/Encrypt-OS/repo/main/$repo/$arch
 ```
 
 ## Github Fallbacks
-Note: the usage of the github "mirrors" below is *not* recommended. They are likely to be removed soon.
+Note: the usage of the github "mirrors" below is *not* a usable repo. These may "work", but it wont.
 ```
-https://raw.githubusercontent.com/Encrypt-OS/repo/main/$repo/$arch
+## Use this:
+https://mirror.snaildos.com/Encrypt-OS/repo/main/$repo/$arch
 
+## Do not use this:
 https://github.com/Encrypt-OS/mirrors/releases/download/mirror1
 https://github.com/Encrypt-OS/mirrors/releases/download/mirror2
 ```
